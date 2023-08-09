@@ -38,7 +38,7 @@ In this repo, we offer the following models, list as follows. And their suructur
 
 ### Step 1 : Clone the repositary
 ```Shell
-git clone https://github.com/wy1iu/DCNets.git
+git clone https://github.com/Applied-Machine-Learning-Lab/HAMUR.git
 ```
 
 ### Step 2 : runing the model
