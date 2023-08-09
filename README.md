@@ -43,7 +43,7 @@ git clone https://github.com/wy1iu/DCNets.git
 
 ### Step 2 : runing the model
 ```Shell
-cd example/ranking
+cd examples
 # For Aliccp
 python run_ali_ccp_ctr_ranking_multi_domain.py --model_name mlp_adp --epoch 200 --device cpu --seed 2022 
 # For MovieLens
