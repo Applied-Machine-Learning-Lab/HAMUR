@@ -4,7 +4,14 @@ Official implementation of our paper "HAMUR: Hyper Adapter for Multi-Domain Reco
 
 You could cite our paper if you find this repository interesting or helpful:
 ```
-Will coming Soon
+@misc{li2023hamur,
+    title={HAMUR: Hyper Adapter for Multi-Domain Recommendation},
+    author={Xiaopeng Li and Fan Yan and Xiangyu Zhao and Yichao Wang and Bo Chen and Huifeng Guo and Ruiming Tang},
+    year={2023},
+    eprint={2309.06217},
+    archivePrefix={arXiv},
+    primaryClass={cs.IR}
+}
 ```
 
 ## Introduction
