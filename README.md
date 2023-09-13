@@ -1,6 +1,6 @@
 # HAMUR
 
-Official implementation of our paper "HAMUR: Hyper Adapter for Multi-Domain Recommendation" in CIKM 2023.
+Official implementation of our paper [HAMUR: Hyper Adapter for Multi-Domain Recommendation](https://arxiv.org/pdf/2309.06217.pdf) in CIKM 2023.
 
 You could cite our paper if you find this repository interesting or helpful:
 ```
