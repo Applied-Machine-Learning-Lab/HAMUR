@@ -24,7 +24,7 @@ Source code of HAMUR: Hyper Adapter for Multi-Domain Recommendation, in Proceedi
 * pandas >=1.5.3
 * scikit-learn >=0.23.2
 
-## Dataset Dowlowad
+## Dataset Download
 In this paper, we use two datasets, **Aliccp** and **movieLens**. Dataset samples are shown in example/ranking/data.
 
 Real Dataset download methods:
