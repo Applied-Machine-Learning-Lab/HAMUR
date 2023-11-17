@@ -279,11 +279,11 @@ class MLP_adap_2_layer_1_adp(nn.Module):
         self.v = nn.ParameterList()
 
         # u,v initiation
-        self.u.append(Parameter(torch.ones((self.fcn_dim[1], self.k)), requires_grad=True))
+        self.u.append(Parameter(torch.ones((self.fcn_dim[2], self.k)), requires_grad=True))
         self.u.append(Parameter(torch.ones((32, self.k)), requires_grad=True))
 
         self.v.append(Parameter(torch.ones((self.k, 32)), requires_grad=True))
-        self.v.append(Parameter(torch.ones((self.k, self.fcn_dim[1])), requires_grad=True))
+        self.v.append(Parameter(torch.ones((self.k, self.fcn_dim[2])), requires_grad=True))
 
         # hypernwt work
         hyper_dims += [self.k * self.k]
@@ -300,10 +300,10 @@ class MLP_adap_2_layer_1_adp(nn.Module):
         # Adapter parameters
         self.b_list = nn.ParameterList()
         self.b_list.append(Parameter(torch.zeros((32)), requires_grad=True))
-        self.b_list.append(Parameter(torch.zeros((self.fcn_dim[1])), requires_grad=True))
+        self.b_list.append(Parameter(torch.zeros((self.fcn_dim[2])), requires_grad=True))
 
-        self.gamma1 = nn.Parameter(torch.ones(self.fcn_dim[1]))
-        self.bias1 = nn.Parameter(torch.zeros(self.fcn_dim[1]))
+        self.gamma1 = nn.Parameter(torch.ones(self.fcn_dim[2]))
+        self.bias1 = nn.Parameter(torch.zeros(self.fcn_dim[2]))
         self.eps = 1e-5
 
     def forward(self, x):
