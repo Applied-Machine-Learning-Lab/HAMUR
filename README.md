@@ -27,27 +27,27 @@ Source code of HAMUR: Hyper Adapter for Multi-Domain Recommendation, in Proceedi
 In this paper, we use two datasets, **Aliccp** and **movieLens**. Dataset samples are shown in example/ranking/data.
 
 Real Dataset download methods:
-* Aliccp : Dowload address https://tianchi.aliyun.com/dataset/408.
-* Movielens : The raw data precess file could be found in [Torch-Rechub-ml-1m](https://github.com/morningsky/Torch-RecHub/tree/main/examples/matching/data/ml-1m). You coud direclt dowload precessed file from https://cowtransfer.com/s/5a3ab69ebd314e.
+* Aliccp: Download address https://tianchi.aliyun.com/dataset/408.
+* Movielens: The raw data process file can be found in [Torch-Rechub-ml-1m](https://github.com/morningsky/Torch-RecHub/tree/main/examples/matching/data/ml-1m). You could directly download the processed file from https://cowtransfer.com/s/5a3ab69ebd314e.
 
 ## Models
-In this repo, we offer the following models, list as follows. And their suructure are shown in the picture.
+In this repo, we offer the following models list as follows. And their structures are shown in the picture.
 !['Img_DifferentBackbone'](DifferentBackbone.jpg)
 * Pure MLP as Multi-domain Backbone models.
 * MLP + HAMUR
 * Pure Wide & Deep as Multi-domain Backbone models.
-* Wide & Deep + HUMUR
+* Wide & Deep + HAMUR
 * Pure DCN as Multi-domain Backbone models. 
-* DCN + HUMUR
+* DCN + HAMUR
 
 ## Usage
 
-### Step 1 : Clone the repositary
+### Step 1: Clone the repository
 ```Shell
 git clone https://github.com/Applied-Machine-Learning-Lab/HAMUR.git
 ```
 
-### Step 2 : runing the model
+### Step 2: Run the model
 ```Shell
 cd examples
 # For Aliccp
