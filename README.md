@@ -31,7 +31,7 @@ Real Dataset download methods:
 * Movielens: The raw data process file can be found in [Torch-Rechub-ml-1m](https://github.com/morningsky/Torch-RecHub/tree/main/examples/matching/data/ml-1m). You could directly download the processed file from https://cowtransfer.com/s/5a3ab69ebd314e.
 
 ## Models
-In this repo, we offer the following models list as follows. And their structures are shown in the picture.
+In this repo, we offer the following models. Their structures are shown in the picture.
 !['Img_DifferentBackbone'](DifferentBackbone.jpg)
 * Pure MLP as Multi-domain Backbone models.
 * MLP + HAMUR
