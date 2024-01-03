@@ -24,20 +24,20 @@ Source code of HAMUR: Hyper Adapter for Multi-Domain Recommendation, in Proceedi
 * scikit-learn >=0.23.2
 
 ## Dataset Download
-In this paper, we use two datasets, **Aliccp** and **movieLens**. Dataset samples are shown in example/ranking/data.
+In this paper, we use two datasets, **Aliccp** and **movieLens**. Dataset samples are shown in example/data.
 
-Real Dataset download methods:
+Full dataset download:
 * Aliccp: Download address https://tianchi.aliyun.com/dataset/408.
-* Movielens: The raw data process file can be found in [Torch-Rechub-ml-1m](https://github.com/morningsky/Torch-RecHub/tree/main/examples/matching/data/ml-1m). You could directly download the processed file from https://cowtransfer.com/s/5a3ab69ebd314e.
+* Movielens: The raw data file can be found in [Torch-Rechub-ml-1m](https://github.com/morningsky/Torch-RecHub/tree/main/examples/matching/data/ml-1m), and you could directly download the processed file from https://cowtransfer.com/s/5a3ab69ebd314e.
 
 ## Models
-In this repo, we offer the following models. Their structures are shown in the picture.
+In this repo, we offer the following models. Their structures are shown in the following figure.
 !['Img_DifferentBackbone'](DifferentBackbone.jpg)
-* Pure MLP as Multi-domain Backbone models.
+* Pure MLP as multi-domain backbone models.
 * MLP + HAMUR
-* Pure Wide & Deep as Multi-domain Backbone models.
+* Pure Wide & Deep as multi-domain backbone models.
 * Wide & Deep + HAMUR
-* Pure DCN as Multi-domain Backbone models. 
+* Pure DCN as multi-domain backbone models. 
 * DCN + HAMUR
 
 ## Usage
