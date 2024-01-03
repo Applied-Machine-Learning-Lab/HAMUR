@@ -1,6 +1,6 @@
 import sys
 
-sys.path.append("..")
+sys.path.append("../")
 
 import pandas as pd
 import torch
